@@ -1,0 +1,115 @@
+<jnlp spec="1.0+" codebase="http://ibtprod.ets.org:80/ibt/client/ ">
+  <information>
+    <title>iBT - IAS Local Server</title>
+    <vendor>(ETS)</vendor>
+    <homepage href="null"/>
+    <description>ETS iBT CacheProxy</description>
+    <description kind="short">ETS iBT CacheProxy</description>
+    <description kind="one-line">ETS iBT CacheProxy</description>
+    <description kind="tooltip">ETS iBT CacheProxy</description>
+    <icon href="http://ibtprod.ets.org:80/ibt/images/etslogoonly.gif " kind="default"/>
+    <shortcut online="true" install="false">
+      <desktop/>
+      <menu submenu="ETS IBT"/>
+    </shortcut>
+    <offline-allowed/>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <update check="timeout" policy="always"/>
+  <resources>
+    <java max-heap-size="1073741824" java-vm-args="-da" href="http://java.sun.com/products/autodl/j2se " version="1.7.0_45 1.6.0_30"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/cacheproxy.jar " download="eager" main="true"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/admincommon.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/adminlauncher.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/adminstations.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/axis.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/businessdata.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/cfclient.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/cfcommon.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/cfserver.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/client.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/client_sa.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/common.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/commons-discovery.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/commons-logging.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/crdsschema.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/cscommon.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/eskm-field-scoring.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ETS_API.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ETS_Calculator.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ets_util.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ibt_plugin_client.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ibtview_common.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ibtview_wnative.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/irt.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/ets-math.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/iset.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/isetbuilder.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/isetdisplay.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/jaxrpc-api.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/jboss-javaee.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/jetty-6.1.14.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/jetty-util-6.1.14.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/logback-classic-1.0.6.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/logback-core-1.0.6.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/mstprocess.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/rcclient.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/rccollector.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/saaj.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/server.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/server_common.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/servlet-api-2.5-6.1.14.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/slf4j-api-1.6.5.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/utilitiescommon.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/wkslauncher.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/wsdl4j.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/xmlpull-1.1.3.1.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/xpp3_min-1.1.4c.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/xstream-1.4.1.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/batik-all.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/xml-apis-ext.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/database.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/itemscoring.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/itemscoringinterface.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/javautils.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/skmcommon.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/skmSchemaProperties.jar " download="eager" main="false"/>
+    <jar href="http://ibtprod.ets.org:80/ibt/client/testscoring.jar " download="eager" main="false"/>
+    <nativelib href="http://ibtprod.ets.org:80/ibt/client/ibt_wnative.jar " download="eager" main="false"/>
+  </resources>
+  <application-desc main-class="org.ets.ibt.delivery.cacheproxy.client.CacheProxyMode5">
+    <argument>code.base @@@@ https://ibtprod.ets.org:443/ibt 
+        </argument>
+    <argument>ibt.cacheproxy.Akamai.isUse @@@@ true
+        </argument>
+    <argument>ibt.cacheproxy.Akamai.nonsecure.url @@@@ http://ec-ibt.ets.org/pswg/PasswordGenerator 
+        </argument>
+    <argument>ibt.cacheproxy.Akamai.secure.url @@@@ https://ec-ibt.ets.org/pswg/PasswordGenerator 
+        </argument>
+    <argument>ibt.cacheproxy.Akamai.timeout @@@@ 15000
+        </argument>
+    <argument>ibt.cacheproxy.service.session.fragment.size @@@@ 300000
+        </argument>
+    <argument>ibt.cf.client.max.retry @@@@ 1
+        </argument>
+    <argument>ibt.cf.client.retry.wait @@@@ 1000
+        </argument>
+    <argument>ibt.cf.default.request.timeout @@@@ 60000
+        </argument>
+    <argument>ibt.front.url @@@@ https://ibtprod.ets.org:443/ibt 
+        </argument>
+    <argument>
+            ibt.cf.client.http.initial.route  @@@@  etsln288_8004
+        </argument>
+    <argument> ibt.cp.disconnected.password    @@@@   1484JRY9
+        </argument>
+    <argument> ibt.cplaunch.param.cpmode  @@@@ cache_lrc</argument>
+    <argument> ibt.cp.da2mode   @@@@ false
+        </argument>
+    <argument> ibt.cplaunch.param.sitecode    @@@@  STN14754A
+        </argument>
+    <argument> ibt.disconnectedMode.support  @@@@ true</argument>
+  </application-desc>
+</jnlp>

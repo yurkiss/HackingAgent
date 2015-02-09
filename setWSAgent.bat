@@ -1,0 +1,1 @@
+setx JAVAWS_VM_ARGS "-agentpath:d:\Dropbox\Java\conParserAgent\dist\conParserAgent.jar"
